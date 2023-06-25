@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #31add7;
+    color: #fff;
+    padding: 10px;
+  }
+
+  nav{
+    display: flex;
+    font-size: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+  }
+
+  .home a{
+    color: #fff;
+    padding-left: 50px;
+    text-decoration: none;
+  }
+
+  .sign {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+  
+  .sign a {
+    color: #fff;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+    line-height: 2;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: linear-gradient(to right, red, yellow);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #31add7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .button{
+    padding-top: 25px;
+  }
+  
+  .features {
+    justify-content: space-around;
+    padding: 100px 150px;
+  }
+
+  .hf{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .bi{
+    background-image: linear-gradient(to right, #defcd8, rgb(241, 241, 175));
+  }
+  
+  .feature1 {
+    text-align: center;
+    display: flex;
+  }
+  
+  .feature1 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+  }
+
+  .feature2 {
+    text-align: center;
+    display: flex;
+  }
+  
+  .feature2 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+  }
+
+  .feature3 {
+    text-align: center;
+    display: flex;
+  }
+  
+  .feature3 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+  }
+
+  .para1,
+  .para2,
+  .para3{
+    padding: 50px 200px;
+    text-align: left;
+  }
+
+  .para-f{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .form-section {
+    padding: 20px;
+  }
+  
+  .form-section h2 {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-section label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-section input,
+  .form-section textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .btn{
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .form-section input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .map-container{
+    padding-bottom: 50px;
+  }
+  
+  footer {
+    background-color: #4dd731;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  
